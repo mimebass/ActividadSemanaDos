@@ -6,15 +6,6 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		172EFCE61DB096BC00BA92F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172EFCE51DB096BC00BA92F2 /* AppDelegate.swift */; };
-		172EFCE81DB096BC00BA92F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172EFCE71DB096BC00BA92F2 /* ViewController.swift */; };
-		172EFCEB1DB096BC00BA92F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 172EFCE91DB096BC00BA92F2 /* Main.storyboard */; };
-		172EFCED1DB096BC00BA92F2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 172EFCEC1DB096BC00BA92F2 /* Images.xcassets */; };
-		172EFCF01DB096BC00BA92F2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 172EFCEE1DB096BC00BA92F2 /* LaunchScreen.xib */; };
-		172EFCFC1DB096BC00BA92F2 /* ActividadSemanaDosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172EFCFB1DB096BC00BA92F2 /* ActividadSemanaDosTests.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
 		172EFCF61DB096BC00BA92F2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -26,16 +17,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		172EFCE01DB096BC00BA92F2 /* ActividadSemanaDos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ActividadSemanaDos.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		172EFCE41DB096BC00BA92F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		172EFCE51DB096BC00BA92F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		172EFCE71DB096BC00BA92F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		172EFCEA1DB096BC00BA92F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		172EFCEC1DB096BC00BA92F2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		172EFCEF1DB096BC00BA92F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		172EFCF51DB096BC00BA92F2 /* ActividadSemanaDosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ActividadSemanaDosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		172EFCFA1DB096BC00BA92F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		172EFCFB1DB096BC00BA92F2 /* ActividadSemanaDosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActividadSemanaDosTests.swift; sourceTree = "<group>"; };
+		172EFD051DB096FC00BA92F2 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		172EFD081DB0986B00BA92F2 /* ActividadSemanaDos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = ActividadSemanaDos.app; path = "/Users/luzkarimebaezgalvis/Desktop/Apps xcode/ActividadSemanaDos/build/Debug-iphoneos/ActividadSemanaDos.app"; sourceTree = "<absolute>"; };
+		172EFD091DB0986B00BA92F2 /* ActividadSemanaDosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ActividadSemanaDosTests.xctest; path = "/Users/luzkarimebaezgalvis/Desktop/Apps xcode/ActividadSemanaDos/build/Debug-iphoneos/ActividadSemanaDosTests.xctest"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,56 +44,15 @@
 			isa = PBXGroup;
 			children = (
 				172EFCE21DB096BC00BA92F2 /* ActividadSemanaDos */,
-				172EFCF81DB096BC00BA92F2 /* ActividadSemanaDosTests */,
-				172EFCE11DB096BC00BA92F2 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		172EFCE11DB096BC00BA92F2 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				172EFCE01DB096BC00BA92F2 /* ActividadSemanaDos.app */,
-				172EFCF51DB096BC00BA92F2 /* ActividadSemanaDosTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		172EFCE21DB096BC00BA92F2 /* ActividadSemanaDos */ = {
 			isa = PBXGroup;
 			children = (
-				172EFCE51DB096BC00BA92F2 /* AppDelegate.swift */,
-				172EFCE71DB096BC00BA92F2 /* ViewController.swift */,
-				172EFCE91DB096BC00BA92F2 /* Main.storyboard */,
-				172EFCEC1DB096BC00BA92F2 /* Images.xcassets */,
-				172EFCEE1DB096BC00BA92F2 /* LaunchScreen.xib */,
-				172EFCE31DB096BC00BA92F2 /* Supporting Files */,
+				172EFD051DB096FC00BA92F2 /* MyPlayground.playground */,
 			);
 			path = ActividadSemanaDos;
-			sourceTree = "<group>";
-		};
-		172EFCE31DB096BC00BA92F2 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				172EFCE41DB096BC00BA92F2 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		172EFCF81DB096BC00BA92F2 /* ActividadSemanaDosTests */ = {
-			isa = PBXGroup;
-			children = (
-				172EFCFB1DB096BC00BA92F2 /* ActividadSemanaDosTests.swift */,
-				172EFCF91DB096BC00BA92F2 /* Supporting Files */,
-			);
-			path = ActividadSemanaDosTests;
-			sourceTree = "<group>";
-		};
-		172EFCF91DB096BC00BA92F2 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				172EFCFA1DB096BC00BA92F2 /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,7 +72,7 @@
 			);
 			name = ActividadSemanaDos;
 			productName = ActividadSemanaDos;
-			productReference = 172EFCE01DB096BC00BA92F2 /* ActividadSemanaDos.app */;
+			productReference = 172EFD081DB0986B00BA92F2 /* ActividadSemanaDos.app */;
 			productType = "com.apple.product-type.application";
 		};
 		172EFCF41DB096BC00BA92F2 /* ActividadSemanaDosTests */ = {
@@ -147,7 +90,7 @@
 			);
 			name = ActividadSemanaDosTests;
 			productName = ActividadSemanaDosTests;
-			productReference = 172EFCF51DB096BC00BA92F2 /* ActividadSemanaDosTests.xctest */;
+			productReference = 172EFD091DB0986B00BA92F2 /* ActividadSemanaDosTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -177,7 +120,7 @@
 				Base,
 			);
 			mainGroup = 172EFCD71DB096BC00BA92F2;
-			productRefGroup = 172EFCE11DB096BC00BA92F2 /* Products */;
+			productRefGroup = 172EFCD71DB096BC00BA92F2;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -192,9 +135,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				172EFCEB1DB096BC00BA92F2 /* Main.storyboard in Resources */,
-				172EFCF01DB096BC00BA92F2 /* LaunchScreen.xib in Resources */,
-				172EFCED1DB096BC00BA92F2 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,8 +152,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				172EFCE81DB096BC00BA92F2 /* ViewController.swift in Sources */,
-				172EFCE61DB096BC00BA92F2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,7 +159,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				172EFCFC1DB096BC00BA92F2 /* ActividadSemanaDosTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,25 +171,6 @@
 			targetProxy = 172EFCF61DB096BC00BA92F2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		172EFCE91DB096BC00BA92F2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				172EFCEA1DB096BC00BA92F2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		172EFCEE1DB096BC00BA92F2 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				172EFCEF1DB096BC00BA92F2 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		172EFCFD1DB096BC00BA92F2 /* Debug */ = {
@@ -409,6 +327,7 @@
 				172EFD011DB096BC00BA92F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		172EFD021DB096BC00BA92F2 /* Build configuration list for PBXNativeTarget "ActividadSemanaDosTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +336,7 @@
 				172EFD041DB096BC00BA92F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
