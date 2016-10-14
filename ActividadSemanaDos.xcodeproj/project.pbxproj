@@ -18,8 +18,8 @@
 
 /* Begin PBXFileReference section */
 		172EFD051DB096FC00BA92F2 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
-		172EFD081DB0986B00BA92F2 /* ActividadSemanaDos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = ActividadSemanaDos.app; path = "/Users/luzkarimebaezgalvis/Desktop/Apps xcode/ActividadSemanaDos/build/Debug-iphoneos/ActividadSemanaDos.app"; sourceTree = "<absolute>"; };
-		172EFD091DB0986B00BA92F2 /* ActividadSemanaDosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ActividadSemanaDosTests.xctest; path = "/Users/luzkarimebaezgalvis/Desktop/Apps xcode/ActividadSemanaDos/build/Debug-iphoneos/ActividadSemanaDosTests.xctest"; sourceTree = "<absolute>"; };
+		172EFD0A1DB09C3900BA92F2 /* ActividadSemanaDos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = ActividadSemanaDos.app; path = "/Users/luzkarimebaezgalvis/Desktop/Apps xcode/ActividadSemanaDos/build/Debug-iphoneos/ActividadSemanaDos.app"; sourceTree = "<absolute>"; };
+		172EFD0B1DB09C3900BA92F2 /* ActividadSemanaDosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ActividadSemanaDosTests.xctest; path = "/Users/luzkarimebaezgalvis/Desktop/Apps xcode/ActividadSemanaDos/build/Debug-iphoneos/ActividadSemanaDosTests.xctest"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +72,7 @@
 			);
 			name = ActividadSemanaDos;
 			productName = ActividadSemanaDos;
-			productReference = 172EFD081DB0986B00BA92F2 /* ActividadSemanaDos.app */;
+			productReference = 172EFD0A1DB09C3900BA92F2 /* ActividadSemanaDos.app */;
 			productType = "com.apple.product-type.application";
 		};
 		172EFCF41DB096BC00BA92F2 /* ActividadSemanaDosTests */ = {
@@ -90,7 +90,7 @@
 			);
 			name = ActividadSemanaDosTests;
 			productName = ActividadSemanaDosTests;
-			productReference = 172EFD091DB0986B00BA92F2 /* ActividadSemanaDosTests.xctest */;
+			productReference = 172EFD0B1DB09C3900BA92F2 /* ActividadSemanaDosTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
